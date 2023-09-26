@@ -12,8 +12,8 @@ class SOP:
         self.andetfag = andetfag
         self.andetfagvejleder = andetfagvejleder
 
-    def genererDocx(self):
-        filnavn = self.navn + ".docx"
+    def genererDocx(self, outputsti):
+        filnavn = outputsti + self.navn + ".docx"
         doc = DocxTemplate('sop.docx')
         context = {
             'navn': self.navn,
