@@ -33,5 +33,5 @@ class SOP:
         print("Opgaveformulering:", self.opgaveformulering)
         print("Studieretningsfag:", self.studieretningsfag)
         print("Studieretningsvejleder:", self.studieretningsvejleder)
-        print("Andet fag", self.andetfag)
-        print("Andet fag vejleder", self.andetfagvejleder)
+        print("Andet fag:", self.andetfag)
+        print("Andet fag vejleder:", self.andetfagvejleder)
